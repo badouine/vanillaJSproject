@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.top-container {
+    background-image: url('tech.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container h1{
+    color: rgb(64, 163, 213);
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 2px;
+}
+
+.text {
+    margin: 50px 5%;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    margin : 0 10px;
+    color : #000;
+    font-family: cursive;
+}
+
+.navbar ul li a:hover {
+    color: orangered
+}
